@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.8.0/css/bulma.min.css" />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="cards_container container">
+      <h2 class="title is-1">BLACK JACK</h2>
+      <h4 class="title is-4">相手のカード</h4>
+      <div id="player2_card" class="play_cards columns is-centered"></div>
+      <p>CPU score:<span id="player2_info" class="content is-medium">???</span></p>
+
+      <p id="game_txt" class="content is-large"></p>
+
+      <h4 class="title is-4">あなたのカード</h4>
+      <div id="player1_card" class="play_cards columns is-centered"></div>
+      <p>you score:<span id="player1_info" class="content is-medium"></span></p>
+
+      <div class="buttons is-centered">
+        <button id="hit_btn" class="button is-warning">Hit</button>
+        <button id="stand_btn" class="button is-link">Stand</button>
+        <button id="reload_btn" class="button is-danger">Reload</button>
+      </div>
+    </div>
+
+    <script src="./script.js"></script>
+  </body>
+</html>

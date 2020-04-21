@@ -1,0 +1,13 @@
+.cards_container {
+  width: 100%;
+  text-align: center;
+}
+
+.play_cards {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.play_card {
+  height: 20vh;
+}
